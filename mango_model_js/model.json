@@ -1,0 +1,35 @@
+{
+  "format": "layers-model",
+  "generatedBy": "manual-conversion",
+  "convertedBy": "python-script",
+  "signature": {
+    "inputs": {
+      "input": {
+        "name": "input_layer",
+        "dtype": "float32",
+        "shape": [
+          null,
+          224,
+          224,
+          3
+        ]
+      }
+    },
+    "outputs": {
+      "output": {
+        "name": "dense_1",
+        "dtype": "float32",
+        "shape": [
+          null,
+          2
+        ]
+      }
+    }
+  },
+  "userDefinedMetadata": {
+    "classNames": [
+      "mango_trees",
+      "not_mango_trees"
+    ]
+  }
+}
