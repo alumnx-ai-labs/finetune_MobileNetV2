@@ -8,7 +8,7 @@ from PIL import Image
 
 # Load the trained model
 print("Loading model...")
-model = load_model('mango_model.h5')
+model = load_model('mango_detector_improved1.h5')
 
 # Define class names (based on your folder structure)
 class_names = ['mango_trees', 'not_mango_trees']
